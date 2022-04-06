@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+project 'MiniVideoTest.xcodeproj'
+
+target 'MiniVideoTest' do
+    pod 'SJBaseVideoPlayer', :git => 'https://gitee.com/changsanjiang/SJBaseVideoPlayer.git'
+    pod 'SJVideoPlayer', :git => 'https://gitee.com/changsanjiang/SJVideoPlayer.git'
+    pod 'Masonry'
+end

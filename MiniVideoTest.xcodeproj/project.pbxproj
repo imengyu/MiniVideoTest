@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D60CDA709BB7F2D9D564785D /* libPods-MiniVideoTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F75A8F7F74DE2E2FB132BC36 /* libPods-MiniVideoTest.a */; };
 		DB710D3427FD328A00635464 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D3327FD328A00635464 /* AppDelegate.m */; };
 		DB710D3727FD328A00635464 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D3627FD328A00635464 /* SceneDelegate.m */; };
 		DB710D3A27FD328A00635464 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D3927FD328A00635464 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 		DB710D4F27FD328D00635464 /* MiniVideoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D4E27FD328D00635464 /* MiniVideoTestTests.m */; };
 		DB710D5927FD328D00635464 /* MiniVideoTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D5827FD328D00635464 /* MiniVideoTestUITests.m */; };
 		DB710D5B27FD328D00635464 /* MiniVideoTestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D5A27FD328D00635464 /* MiniVideoTestUITestsLaunchTests.m */; };
+		DB710D6B27FD3DBE00635464 /* MiniVideoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D6A27FD3DBE00635464 /* MiniVideoScrollView.m */; };
+		DB710D7427FD6B1100635464 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = DB710D7327FD6B1100635464 /* podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DB710D7227FD5D1300635464 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		34FAFB25A50C6208C5FF6B4F /* Pods-MiniVideoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniVideoTest.release.xcconfig"; path = "Target Support Files/Pods-MiniVideoTest/Pods-MiniVideoTest.release.xcconfig"; sourceTree = "<group>"; };
+		6D9A984A97343E141F49A2D6 /* Pods-MiniVideoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniVideoTest.debug.xcconfig"; path = "Target Support Files/Pods-MiniVideoTest/Pods-MiniVideoTest.debug.xcconfig"; sourceTree = "<group>"; };
 		DB710D2F27FD328A00635464 /* MiniVideoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniVideoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB710D3227FD328A00635464 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB710D3327FD328A00635464 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +72,10 @@
 		DB710D5427FD328D00635464 /* MiniVideoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniVideoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB710D5827FD328D00635464 /* MiniVideoTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniVideoTestUITests.m; sourceTree = "<group>"; };
 		DB710D5A27FD328D00635464 /* MiniVideoTestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniVideoTestUITestsLaunchTests.m; sourceTree = "<group>"; };
+		DB710D6A27FD3DBE00635464 /* MiniVideoScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniVideoScrollView.m; sourceTree = "<group>"; };
+		DB710D6C27FD3DCB00635464 /* MiniVideoScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiniVideoScrollView.h; sourceTree = "<group>"; };
+		DB710D7327FD6B1100635464 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		F75A8F7F74DE2E2FB132BC36 /* libPods-MiniVideoTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniVideoTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60CDA709BB7F2D9D564785D /* libPods-MiniVideoTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +104,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ADAFA38239A41C960686282F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D9A984A97343E141F49A2D6 /* Pods-MiniVideoTest.debug.xcconfig */,
+				34FAFB25A50C6208C5FF6B4F /* Pods-MiniVideoTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DB710D2627FD328A00635464 = {
 			isa = PBXGroup;
 			children = (
+				DB710D7327FD6B1100635464 /* podfile */,
 				DB710D3127FD328A00635464 /* MiniVideoTest */,
 				DB710D4D27FD328D00635464 /* MiniVideoTestTests */,
 				DB710D5727FD328D00635464 /* MiniVideoTestUITests */,
 				DB710D3027FD328A00635464 /* Products */,
+				DB710D6D27FD5D0B00635464 /* Frameworks */,
+				ADAFA38239A41C960686282F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +150,8 @@
 				DB710D4027FD328C00635464 /* LaunchScreen.storyboard */,
 				DB710D4327FD328C00635464 /* Info.plist */,
 				DB710D4427FD328C00635464 /* main.m */,
+				DB710D6A27FD3DBE00635464 /* MiniVideoScrollView.m */,
+				DB710D6C27FD3DCB00635464 /* MiniVideoScrollView.h */,
 			);
 			path = MiniVideoTest;
 			sourceTree = "<group>";
@@ -136,6 +173,14 @@
 			path = MiniVideoTestUITests;
 			sourceTree = "<group>";
 		};
+		DB710D6D27FD5D0B00635464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F75A8F7F74DE2E2FB132BC36 /* libPods-MiniVideoTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB710D5E27FD328D00635464 /* Build configuration list for PBXNativeTarget "MiniVideoTest" */;
 			buildPhases = (
+				FE8B6467AF63DF6F75435DD6 /* [CP] Check Pods Manifest.lock */,
 				DB710D2B27FD328A00635464 /* Sources */,
 				DB710D2C27FD328A00635464 /* Frameworks */,
 				DB710D2D27FD328A00635464 /* Resources */,
+				DB710D7227FD5D1300635464 /* Embed Frameworks */,
+				D9C2F803972237C2EC700110 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +289,7 @@
 			files = (
 				DB710D4227FD328C00635464 /* LaunchScreen.storyboard in Resources */,
 				DB710D3F27FD328C00635464 /* Assets.xcassets in Resources */,
+				DB710D7427FD6B1100635464 /* podfile in Resources */,
 				DB710D3D27FD328A00635464 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,11 +310,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D9C2F803972237C2EC700110 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniVideoTest/Pods-MiniVideoTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniVideoTest/Pods-MiniVideoTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniVideoTest/Pods-MiniVideoTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8B6467AF63DF6F75435DD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniVideoTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB710D2B27FD328A00635464 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB710D6B27FD3DBE00635464 /* MiniVideoScrollView.m in Sources */,
 				DB710D3A27FD328A00635464 /* ViewController.m in Sources */,
 				DB710D3427FD328A00635464 /* AppDelegate.m in Sources */,
 				DB710D4527FD328C00635464 /* main.m in Sources */,
@@ -439,55 +531,73 @@
 		};
 		DB710D5F27FD328D00635464 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9A984A97343E141F49A2D6 /* Pods-MiniVideoTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 399C79ZNL8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/framework/vod",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MiniVideoTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imengyu.MiniVideoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = NO;
 			};
 			name = Debug;
 		};
 		DB710D6027FD328D00635464 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FAFB25A50C6208C5FF6B4F /* Pods-MiniVideoTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 399C79ZNL8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/framework/vod",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MiniVideoTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imengyu.MiniVideoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = NO;
 			};
 			name = Release;
 		};
