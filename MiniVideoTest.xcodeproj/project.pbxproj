@@ -20,6 +20,7 @@
 		DB710D5B27FD328D00635464 /* MiniVideoTestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D5A27FD328D00635464 /* MiniVideoTestUITestsLaunchTests.m */; };
 		DB710D6B27FD3DBE00635464 /* MiniVideoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D6A27FD3DBE00635464 /* MiniVideoScrollView.m */; };
 		DB710D7427FD6B1100635464 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = DB710D7327FD6B1100635464 /* podfile */; };
+		DB710D7727FD894B00635464 /* VideoDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D7627FD894B00635464 /* VideoDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		DB710D6A27FD3DBE00635464 /* MiniVideoScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniVideoScrollView.m; sourceTree = "<group>"; };
 		DB710D6C27FD3DCB00635464 /* MiniVideoScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiniVideoScrollView.h; sourceTree = "<group>"; };
 		DB710D7327FD6B1100635464 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		DB710D7527FD893C00635464 /* VideoDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDataModel.h; sourceTree = "<group>"; };
+		DB710D7627FD894B00635464 /* VideoDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoDataModel.m; sourceTree = "<group>"; };
 		F75A8F7F74DE2E2FB132BC36 /* libPods-MiniVideoTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniVideoTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -152,6 +155,8 @@
 				DB710D4427FD328C00635464 /* main.m */,
 				DB710D6A27FD3DBE00635464 /* MiniVideoScrollView.m */,
 				DB710D6C27FD3DCB00635464 /* MiniVideoScrollView.h */,
+				DB710D7527FD893C00635464 /* VideoDataModel.h */,
+				DB710D7627FD894B00635464 /* VideoDataModel.m */,
 			);
 			path = MiniVideoTest;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 				DB710D3427FD328A00635464 /* AppDelegate.m in Sources */,
 				DB710D4527FD328C00635464 /* main.m in Sources */,
 				DB710D3727FD328A00635464 /* SceneDelegate.m in Sources */,
+				DB710D7727FD894B00635464 /* VideoDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
