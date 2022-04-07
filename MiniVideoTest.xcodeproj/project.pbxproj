@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D60CDA709BB7F2D9D564785D /* libPods-MiniVideoTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F75A8F7F74DE2E2FB132BC36 /* libPods-MiniVideoTest.a */; };
+		DB2FA65127FEB91F00E7A131 /* MiniVideoItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB2FA65027FEB91F00E7A131 /* MiniVideoItemView.xib */; };
 		DB710D3427FD328A00635464 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D3327FD328A00635464 /* AppDelegate.m */; };
 		DB710D3727FD328A00635464 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D3627FD328A00635464 /* SceneDelegate.m */; };
 		DB710D3A27FD328A00635464 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710D3927FD328A00635464 /* ViewController.m */; };
@@ -57,6 +58,7 @@
 /* Begin PBXFileReference section */
 		34FAFB25A50C6208C5FF6B4F /* Pods-MiniVideoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniVideoTest.release.xcconfig"; path = "Target Support Files/Pods-MiniVideoTest/Pods-MiniVideoTest.release.xcconfig"; sourceTree = "<group>"; };
 		6D9A984A97343E141F49A2D6 /* Pods-MiniVideoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniVideoTest.debug.xcconfig"; path = "Target Support Files/Pods-MiniVideoTest/Pods-MiniVideoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2FA65027FEB91F00E7A131 /* MiniVideoItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MiniVideoItemView.xib; sourceTree = "<group>"; };
 		DB710D2F27FD328A00635464 /* MiniVideoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniVideoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB710D3227FD328A00635464 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB710D3327FD328A00635464 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				DB710D7627FD894B00635464 /* VideoDataModel.m */,
 				DB710D7827FE780B00635464 /* MiniVideoItemView.m */,
 				DB710D7A27FE781900635464 /* MiniVideoItemView.h */,
+				DB2FA65027FEB91F00E7A131 /* MiniVideoItemView.xib */,
 			);
 			path = MiniVideoTest;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				DB710D4227FD328C00635464 /* LaunchScreen.storyboard in Resources */,
 				DB710D3F27FD328C00635464 /* Assets.xcassets in Resources */,
 				DB710D7427FD6B1100635464 /* podfile in Resources */,
+				DB2FA65127FEB91F00E7A131 /* MiniVideoItemView.xib in Resources */,
 				DB710D3D27FD328A00635464 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

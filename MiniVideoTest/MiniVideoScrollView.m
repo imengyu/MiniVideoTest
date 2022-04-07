@@ -24,6 +24,7 @@
 @property (nonatomic, strong) NSMutableArray * videos;
 @property (nonatomic, strong) VideoDataModel * upperVideo, *middleVideo, *downVideo;
 @property (nonatomic, strong) SJBaseVideoPlayer *upPerPlayer, *middlePlayer, *downPlayer;
+@property (nonatomic, strong) SJBaseVideoPlayer *currentPlayingPlayer;
 @property (nonatomic, assign) NSInteger currentIndex;
 
 @end
@@ -37,34 +38,79 @@
   VideoDataModel *model = [[VideoDataModel alloc] init];
   model.url = @"https://video.ydtapp.com/svd/file/20220222/nFfmM4erRwFbYxYytHzN.mp4";
   model.videoCover = @"https://video.ydtapp.com/svd/file/20220222/nFfmM4erRwFbYxYytHzN.mp4?vframe/jpg/offset/1";
+  model.commentCount = @878;
+  model.likeCount = @148759;
+  model.likeStatus = YES;
+  model.canFollow = YES;
+  model.avatarUrl = @"https://image.ydtapp.com/usr/avatar/20220223/b26df81bea8dee051dcbef77ff94606d.jpg";
+  model.userName = @"紫薇斗数-天佑";
+  model.content = @"—悟  道—";
   [ self.videos addObject:model ];
   model = [[VideoDataModel alloc] init];
   model.url = @"https://video.ydtapp.com/svd/file/20220222/wewChXJTQk2f8AwhpDJF.mp4";
   model.videoCover = @"https://video.ydtapp.com/svd/file/20220222/wewChXJTQk2f8AwhpDJF.mp4?vframe/jpg/offset/1";
-  [ self.videos addObject:model ];
-  model = [[VideoDataModel alloc] init];
-  model.url = @"https://video.ydtapp.com/svd/file/20220222/nFfmM4erRwFbYxYytHzN.mp4";
-  model.videoCover = @"https://video.ydtapp.com/svd/file/20220222/nFfmM4erRwFbYxYytHzN.mp4?vframe/jpg/offset/1";
+  model.commentCount = @77881;
+  model.likeCount = @876;
+  model.likeStatus = NO;
+  model.canFollow = NO;
+  model.avatarUrl = @"https://image.ydtapp.com/usr/avatar/20220328/36a9478af2f79b3d29d1fb8e02e5c0e7.jpg";
+  model.userName = @"时斌";
+  model.content = @"乾卦解读";
   [ self.videos addObject:model ];
   model = [[VideoDataModel alloc] init];
   model.url = @"https://video.ydtapp.com/svd/file/20220222/XenMHxH2GGAd6BEAbEMj.mp4";
   model.videoCover = @"https://video.ydtapp.com/svd/file/20220222/XenMHxH2GGAd6BEAbEMj.mp4?vframe/jpg/offset/1";
+  model.commentCount = @99479;
+  model.likeCount = @543590;
+  model.likeStatus = NO;
+  model.canFollow = YES;
+  model.avatarUrl = @"hhttps://image.ydtapp.com/usr/avatar/20220214/ece5110e6f99e2dd5882b635cd15a519.jpg";
+  model.userName = @"廖相士";
+  model.content = @"人有三光精气神";
   [ self.videos addObject:model ];
   model = [[VideoDataModel alloc] init];
   model.url = @"https://video.ydtapp.com/svd/file/20220222/jF8pyrdJEskfTf5kZPJF.mp4";
   model.videoCover = @"https://video.ydtapp.com/svd/file/20220222/jF8pyrdJEskfTf5kZPJF.mp4?vframe/jpg/offset/1";
+  model.commentCount = @143;
+  model.likeCount = @96436;
+  model.likeStatus = NO;
+  model.canFollow = YES;
+  model.avatarUrl = @"https://image.ydtapp.com/usr/avatar/20220328/WkpmPYQpCjyBwJ25YBed.jpg";
+  model.userName = @"清玄子";
+  model.content = @"来式太极图";
   [ self.videos addObject:model ];
   model = [[VideoDataModel alloc] init];
   model.url = @"https://video.ydtapp.com/svd/file/20220222/jW3mSxC7xrwfXA8rZDRR.mp4";
   model.videoCover = @"https://video.ydtapp.com/svd/file/20220222/jW3mSxC7xrwfXA8rZDRR.mp4?vframe/jpg/offset/1";
+  model.commentCount = @33;
+  model.likeCount = @16009;
+  model.likeStatus = YES;
+  model.canFollow = NO;
+  model.avatarUrl = @"https://image.ydtapp.com/usr/avatar/20220223/b26df81bea8dee051dcbef77ff94606d.jpg";
+  model.userName = @"清玄子";
+  model.content = @"来式太极图";
   [ self.videos addObject:model ];
   model = [[VideoDataModel alloc] init];
   model.url = @"https://video.ydtapp.com/svd/file/20220221/yZC6YQXM7ECacb6d3HNS.mp4";
   model.videoCover = @"https://video.ydtapp.com/svd/file/20220221/yZC6YQXM7ECacb6d3HNS.mp4?vframe/jpg/offset/1";
+  model.commentCount = @988;
+  model.likeCount = @88;
+  model.likeStatus = NO;
+  model.canFollow = NO;
+  model.avatarUrl = @"https://image.ydtapp.com/usr/avatar/20220223/b26df81bea8dee051dcbef77ff94606d.jpg";
+  model.userName = @"紫薇斗数-天佑";
+  model.content = @"—悟  道—";
   [ self.videos addObject:model ];
   model = [[VideoDataModel alloc] init];
   model.url = @"https://video.ydtapp.com/svd/file/20220221/ed5ApMm2QT737YdpZXfF.mp4";
   model.videoCover = @"https://video.ydtapp.com/svd/file/20220221/ed5ApMm2QT737YdpZXfF.mp4?vframe/jpg/offset/1";
+  model.commentCount = @2345;
+  model.likeCount = @4487;
+  model.likeStatus = YES;
+  model.canFollow = YES;
+  model.avatarUrl = @"https://image.ydtapp.com/usr/avatar/20220223/b26df81bea8dee051dcbef77ff94606d.jpg";
+  model.userName = @"清玄子";
+  model.content = @"来式太极图";
   [ self.videos addObject:model ];
 
   self.currentIndex = 0;
@@ -140,13 +186,14 @@
     [self addSubview:_downImageView];
     
     [self initVideos];
-  
+    
+    _currentPlayingPlayer = _middlePlayer;
     [self _setupPlayer:_middlePlayer itemView:_middleImageView ];
     [self _setupPlayer:_upPerPlayer itemView:_upperImageView ];
     [self _setupPlayer:_downPlayer itemView:_downImageView ];
     
     [self prepareForVideo:self.upPerPlayer withVideo:_upperVideo];
-    [self prepareForVideo:self.middlePlayer withVideo:_middleVideo play:YES];
+    [self prepareForVideo:self.middlePlayer withVideo:_middleVideo];
     [self prepareForVideo:self.downPlayer withVideo:_downVideo];
 
   }
@@ -164,6 +211,13 @@
   _player.playbackObserver.playbackDidFinishExeBlock = ^(__kindof SJBaseVideoPlayer * _Nonnull player) {
       [player replay];
   };
+  // 缓冲完毕后，如果是当前播放器，则开始播放
+  _player.playbackObserver.assetStatusDidChangeExeBlock = ^(__kindof SJBaseVideoPlayer * _Nonnull player) {
+    if(player.assetStatus == SJAssetStatusReadyToPlay && player == self.currentPlayingPlayer) {
+      NSLog(@"Play when SJAssetStatusReadyToPlay");
+      [ player play ];
+    }
+  };
   __weak typeof(_player) _weakPlayer = _player;
   // 设置仅支持单击手势
   _player.gestureControl.supportedGestureTypes = SJPlayerGestureTypeMask_SingleTap;
@@ -173,31 +227,36 @@
       _weakPlayer.isPaused ? [_weakPlayer play] : [_weakPlayer pauseForUser];
   };
   // 播放状态改变后刷新播放按钮显示状态
-  __weak typeof(self) _self = self;
-  _player.playbackObserver.playbackStatusDidChangeExeBlock = ^(__kindof SJBaseVideoPlayer * _Nonnull player) {
-    __strong typeof(_self) self = _self;
-    if ( !self ) return;
-    [ item setPlayButtonVisible: _weakPlayer.isPaused ];
+  _player.playbackObserver.timeControlStatusDidChangeExeBlock = ^(__kindof SJBaseVideoPlayer * _Nonnull player) {
+    [ item setPlayButtonVisible: _weakPlayer.timeControlStatus == SJPlaybackTimeControlStatusPaused ];
   };
 }
 
 //条目设置处理
 - (void) prepareForImageView: (MiniVideoItemView *)itemView withVideo:(VideoDataModel *)video
 {
-  [itemView setImage:video.videoCover];
+  [itemView setItemData:video];
 }
 //视频设置处理
-- (void) prepareForVideo: (SJBaseVideoPlayer *)player withVideo:(VideoDataModel *)video {
-  [self prepareForVideo: player withVideo: video play:NO];
-}
-- (void) prepareForVideo: (SJBaseVideoPlayer *)player withVideo:(VideoDataModel *)video play:(BOOL)play
+- (void) prepareForVideo: (SJBaseVideoPlayer *)player withVideo:(VideoDataModel *)video
 {
   [ player stop ];
   SJVideoPlayerURLAsset *asset = [SJVideoPlayerURLAsset.alloc initWithURL:[NSURL URLWithString:video.url]];
   player.URLAsset = asset;
-  
-  if (play) {
-    [ player play ];
+}
+
+- (void)movePlayerViewUp:(UIView*)view {
+  if (view.frame.origin.y == 0) {
+    view.frame = CGRectMake(0, SCREEN_HEIGHT * 2, SCREEN_WIDTH, SCREEN_HEIGHT);
+  } else {
+    view.frame = CGRectMake(0, view.frame.origin.y - SCREEN_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT);
+  }
+}
+- (void)movePlayerViewDown:(UIView*)view {
+  if (view.frame.origin.y == 2 * SCREEN_HEIGHT) {
+    view.frame = CGRectMake(0, SCREEN_HEIGHT * 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+  }else{
+    view.frame = CGRectMake(0, view.frame.origin.y + SCREEN_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT);
   }
 }
 
@@ -206,111 +265,133 @@
 {
   CGFloat offset = scrollView.contentOffset.y;
   if (self.videos.count) {
-    if (offset >= 2*self.frame.size.height)
+    if (offset >= 2 * self.frame.size.height)
     {
-      // slides to the down player
+      //这是往下滑
       scrollView.contentOffset = CGPointMake(0, self.frame.size.height);
       _currentIndex++;
-      self.upperImageView.imageView.image = self.middleImageView.imageView.image;
-      self.middleImageView.imageView.image = self.downImageView.imageView.image;
-
-      if (self.upPerPlayer.view.frame.origin.y == 0) {
-        self.upPerPlayer.view.frame = CGRectMake(0, SCREEN_HEIGHT * 2, SCREEN_WIDTH, SCREEN_HEIGHT);
-      }else{
-        self.upPerPlayer.view.frame = CGRectMake(0, self.upPerPlayer.view.frame.origin.y - SCREEN_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT);
+      
+      //需要先停止正在播放的上一个播放器
+      if (_currentPlayingPlayer) {
+        NSLog(@"Pause prev _currentPlayingPlayer");
+         [_currentPlayingPlayer pause];
       }
       
-      if (self.middlePlayer.view.frame.origin.y == 0) {
-        self.middlePlayer.view.frame = CGRectMake(0, SCREEN_HEIGHT * 2, SCREEN_WIDTH, SCREEN_HEIGHT);
-      }else{
-        self.middlePlayer.view.frame = CGRectMake(0, self.middlePlayer.view.frame.origin.y - SCREEN_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT);
-      }
+      //把下一页的图片层移动到当前页
+      [ self movePlayerViewUp:self.upperImageView ];
+      [ self movePlayerViewUp:self.middleImageView ];
+      [ self movePlayerViewUp:self.downImageView ];
+      //然后把播放器全部往上移一格
+      [ self movePlayerViewUp:self.upPerPlayer.view ];
+      [ self movePlayerViewUp:self.middlePlayer.view ];
+      [ self movePlayerViewUp:self.downPlayer.view ];
       
-
+      //设置下一个视频，如果到达末尾，则从头视频开始
       if (_currentIndex == self.videos.count - 1)
       {
         _downVideo = [self.videos firstObject];
-      } else if (_currentIndex == self.videos.count)
+      }
+      else if (_currentIndex == self.videos.count)
       {
         _downVideo = self.videos[1];
         _currentIndex = 0;
-        
-      } else
+      }
+      else
       {
         _downVideo = self.videos[_currentIndex+1];
       }
-      [self prepareForImageView: self.downImageView withVideo:_downVideo];
       
-      if (self.downPlayer.view.frame.origin.y == 0) {
-        self.downPlayer.view.frame = CGRectMake(0, SCREEN_HEIGHT * 2, SCREEN_WIDTH, SCREEN_HEIGHT);
-      }else{
-        self.downPlayer.view.frame = CGRectMake(0, self.downPlayer.view.frame.origin.y - SCREEN_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT);
-      }
       
-      if (self.upPerPlayer.view.frame.origin.y == SCREEN_HEIGHT * 2) {
-        [self prepareForVideo:self.upPerPlayer withVideo:_downVideo];
+      //获取处于最下面的播放器，开始缓冲视频
+      //获取处于中间的播放器，开始播放视频
+      if (_upperImageView.frame.origin.y == SCREEN_HEIGHT * 2) {
+        [self prepareForVideo:_upPerPlayer withVideo:_downVideo];
+        _currentPlayingPlayer = _downPlayer;
+        
+        //设置下一页的图片与数据
+        [self prepareForImageView: _upperImageView withVideo:_downVideo];
       }
-      if (self.middlePlayer.view.frame.origin.y == SCREEN_HEIGHT * 2) {
-        [self prepareForVideo:self.middlePlayer withVideo:_downVideo];
+      if (_middleImageView.frame.origin.y == SCREEN_HEIGHT * 2) {
+        [self prepareForVideo:_middlePlayer withVideo:_downVideo];
+        _currentPlayingPlayer = _upPerPlayer;
+        
+        //设置下一页的图片与数据
+        [self prepareForImageView: _middleImageView withVideo:_downVideo];
       }
-      if (self.downPlayer.view.frame.origin.y == SCREEN_HEIGHT * 2) {
-        [self prepareForVideo:self.downPlayer withVideo:_downVideo];
+      if (_downImageView.frame.origin.y == SCREEN_HEIGHT * 2) {
+        [self prepareForVideo: _downPlayer withVideo:_downVideo];
+        _currentPlayingPlayer = _middlePlayer;
+        
+        //设置下一页的图片与数据
+        [self prepareForImageView: _downImageView withVideo:_downVideo];
       }
+      if (_currentPlayingPlayer)
+        [_currentPlayingPlayer play];
       
       NSLog(@"switchPlayer down %ld", _currentIndex);
     }
     else if (offset <= 0)
     {
-      // slides to the upper player
+      //这是往上滑
       scrollView.contentOffset = CGPointMake(0, self.frame.size.height);
       _currentIndex--;
       self.downImageView.imageView.image = self.middleImageView.imageView.image;
 
-      if (self.downPlayer.view.frame.origin.y == 2 * SCREEN_HEIGHT) {
-        self.downPlayer.view.frame = CGRectMake(0, SCREEN_HEIGHT * 0, SCREEN_WIDTH, SCREEN_HEIGHT);
-      }else{
-        self.downPlayer.view.frame = CGRectMake(0, self.downPlayer.view.frame.origin.y + SCREEN_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT);
+      //需要先停止正在播放的上一个播放器
+      if (_currentPlayingPlayer) {
+        NSLog(@"Pause prev _currentPlayingPlayer");
+         [_currentPlayingPlayer pause];
       }
       
-      self.middleImageView.imageView.image = self.upperImageView.imageView.image;
-
+      //把上一页的图片层移动到当前页
+      [ self movePlayerViewDown:self.upperImageView ];
+      [ self movePlayerViewDown:self.middleImageView ];
+      [ self movePlayerViewDown:self.downImageView ];
+      //然后把播放器全部往下移一格
+      [ self movePlayerViewDown:self.upPerPlayer.view ];
+      [ self movePlayerViewDown:self.middlePlayer.view ];
+      [ self movePlayerViewDown:self.downPlayer.view ];
       
-      if (self.middlePlayer.view.frame.origin.y == 2 * SCREEN_HEIGHT) {
-        self.middlePlayer.view.frame = CGRectMake(0, SCREEN_HEIGHT * 0, SCREEN_WIDTH, SCREEN_HEIGHT);
-      }else{
-        self.middlePlayer.view.frame = CGRectMake(0, self.middlePlayer.view.frame.origin.y + SCREEN_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT);
-      }
-     
+      //设置上一个视频，如果到达第一个，则从尾视频开始
       if (_currentIndex == 0)
       {
         _upperVideo = [self.videos lastObject];
-        
-      } else if (_currentIndex == -1)
+      }
+      else if (_currentIndex == -1)
       {
         _upperVideo = self.videos[self.videos.count - 2];
-        _currentIndex = self.videos.count-1;
-        
-      } else
+        _currentIndex = self.videos.count - 1;
+      }
+      else
       {
         _upperVideo = self.videos[_currentIndex - 1];
       }
-      [self prepareForImageView:self.upperImageView withVideo:_upperVideo];
       
-      if (self.upPerPlayer.view.frame.origin.y == 2 * SCREEN_HEIGHT) {
-        self.upPerPlayer.view.frame = CGRectMake(0, SCREEN_HEIGHT * 0, SCREEN_WIDTH, SCREEN_HEIGHT);
-      }else{
-        self.upPerPlayer.view.frame = CGRectMake(0, self.upPerPlayer.view.frame.origin.y + SCREEN_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT);
+      //获取处于最上面的播放器，开始缓冲视频
+      //获取处于中间的播放器，开始播放视频
+      if (_upperImageView.frame.origin.y == 0) {
+        [self prepareForVideo:_upPerPlayer withVideo:_upperVideo];
+        _currentPlayingPlayer = _middlePlayer;
+        
+        //设置上一页的图片与数据
+        [self prepareForImageView: _upperImageView withVideo:_upperVideo];
       }
-      
-      if (self.upPerPlayer.view.frame.origin.y == 0 ) {
-        [self prepareForVideo:self.upPerPlayer withVideo:_upperVideo];
+      if (_middleImageView.frame.origin.y == 0) {
+        [self prepareForVideo:_middlePlayer withVideo:_upperVideo];
+        _currentPlayingPlayer = _downPlayer;
+        
+        //设置上一页的图片与数据
+        [self prepareForImageView: _middleImageView withVideo:_upperVideo];
       }
-      if (self.middlePlayer.view.frame.origin.y == 0 ) {
-        [self prepareForVideo:self.middlePlayer withVideo:_upperVideo];
+      if (_downImageView.frame.origin.y == 0) {
+        [self prepareForVideo: _downPlayer withVideo:_upperVideo];
+        _currentPlayingPlayer = _upPerPlayer;
+        
+        //设置上一页的图片与数据
+        [self prepareForImageView: _downImageView withVideo:_upperVideo];
       }
-      if (self.downPlayer.view.frame.origin.y == 0 ) {
-        [self prepareForVideo:self.downPlayer withVideo:_upperVideo];
-      }
+      if (_currentPlayingPlayer)
+        [_currentPlayingPlayer play];
       
       NSLog(@"switchPlayer upper %ld", _currentIndex);
     }

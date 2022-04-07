@@ -10,15 +10,29 @@
 
 #import <UIKit/UIKit.h>
 #import <SJBaseVideoPlayer/SJBaseVideoPlayer.h>
+#import "VideoDataModel.h"
 
 @interface MiniVideoItemView : UIView
 
 - (void)setPlayButtonVisible:(BOOL)visible;
-- (void)setImage:(NSString*)imageUrl;
+- (void)setItemData:(VideoDataModel*)data ;
 
 @property (strong, nonatomic) UIImageView *imageView;
-
 @property (strong, nonatomic) SJBaseVideoPlayer *player;
+
+@property (strong, nonatomic) IBOutlet UIImageView *likeButtonImage;
+@property (strong, nonatomic) IBOutlet UILabel *likeButtonLabel;
+
+@property (strong, nonatomic) IBOutlet UIImageView *commentButtonImage;
+@property (strong, nonatomic) IBOutlet UILabel *commentButtonLabel;
+
+@property (strong, nonatomic) IBOutlet UIImageView *shareButtonImage;
+
+@property (strong, nonatomic) IBOutlet UIImageView *userHeadImage;
+@property (strong, nonatomic) IBOutlet UIImageView *followButtonImage;
+
+@property (strong, nonatomic) IBOutlet UILabel *userLabel;
+@property (strong, nonatomic) IBOutlet UILabel *contentLabel;
 
 @end
 
