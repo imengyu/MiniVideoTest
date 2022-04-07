@@ -12,7 +12,6 @@
 
 @interface MiniVideoScrollView : UIScrollView
 
-
 @end
 
 #endif /* MiniVideoScrollView_h */

@@ -1,5 +1,8 @@
 PODS:
   - Masonry (1.1.0)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
   - SJBaseVideoPlayer (3.6.7):
     - Masonry
     - SJBaseVideoPlayer/AVPlayer (= 3.6.7)
@@ -63,12 +66,14 @@ PODS:
 
 DEPENDENCIES:
   - Masonry
+  - SDWebImage
   - SJBaseVideoPlayer (from `https://gitee.com/changsanjiang/SJBaseVideoPlayer.git`)
   - SJVideoPlayer (from `https://gitee.com/changsanjiang/SJVideoPlayer.git`)
 
 SPEC REPOS:
   trunk:
     - Masonry
+    - SDWebImage
     - SJUIKit
     - YYModel
 
@@ -88,11 +93,12 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
   SJBaseVideoPlayer: b3325d5d8c3cfd1371926d91230f4220724818f3
   SJUIKit: 86d5b16f8b8b17274ef8805acf965e4014629e15
   SJVideoPlayer: 3a271ff92c7b9d611c537655fd1edcbae18b8587
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 81b5df0cb6be0f6d16d133c78d1193403cc539dc
+PODFILE CHECKSUM: 86cf1bc29f09e4eae38709d4c44a7c550fc1a32d
 
 COCOAPODS: 1.11.3
